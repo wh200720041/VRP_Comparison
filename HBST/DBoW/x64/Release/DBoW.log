@@ -1,0 +1,48 @@
+﻿D:\Visual Studio 2017\Visual Studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (DBoW.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+d:\library\dbow3\src\vocabulary.h(302): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\vocabulary.h(303): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\vocabulary.h(438): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\descmanip.h(95): warning C4244: 'return': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(84): warning C4244: 'argument': conversion from 'double' to 'const uint32_t', possible loss of data
+c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(105): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(105): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data
+c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(127): warning C4477: 'printf' : format string '%9lu' requires an argument of type 'unsigned long', but variadic argument 3 has type 'uint64_t'
+  c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(127): note: consider using '%llu' in the format string
+  c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(127): note: consider using '%Iu' in the format string
+  c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(127): note: consider using '%I64u' in the format string
+c:\users\owner\desktop\comparison_approach\hbst\src\binary_tree.hpp(853): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_tree.hpp(846): note: while compiling class template member function 'const std::vector<srrg_hbst::BinaryMatchable<cv::KeyPoint,256> *,std::allocator<_Ty>> srrg_hbst::BinaryTree<HBSTNode>::getMatchables(const cv::Mat &,const std::vector<cv::KeyPoint,std::allocator<cv::KeyPoint>> &,const uint64_t &)'
+          with
+          [
+              _Ty=srrg_hbst::BinaryMatchable<cv::KeyPoint,256> *
+          ]
+  c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(70): note: see reference to function template instantiation 'const std::vector<srrg_hbst::BinaryMatchable<cv::KeyPoint,256> *,std::allocator<_Ty>> srrg_hbst::BinaryTree<HBSTNode>::getMatchables(const cv::Mat &,const std::vector<cv::KeyPoint,std::allocator<cv::KeyPoint>> &,const uint64_t &)' being compiled
+          with
+          [
+              _Ty=srrg_hbst::BinaryMatchable<cv::KeyPoint,256> *
+          ]
+  c:\users\owner\desktop\comparison_approach\hbst\src\main.cpp(28): note: see reference to class template instantiation 'srrg_hbst::BinaryTree<HBSTNode>' being compiled
+c:\users\owner\desktop\comparison_approach\hbst\src\binary_node.hpp(154): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_node.hpp(67): note: while compiling class template member function 'const bool srrg_hbst::BinaryNode<Matchable,double>::spawnLeafs(const srrg_hbst::SplittingStrategy &)'
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_tree.hpp(830): note: see reference to function template instantiation 'const bool srrg_hbst::BinaryNode<Matchable,double>::spawnLeafs(const srrg_hbst::SplittingStrategy &)' being compiled
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_tree.hpp(28): note: see reference to class template instantiation 'srrg_hbst::BinaryNode<Matchable,double>' being compiled
+c:\users\owner\desktop\comparison_approach\hbst\src\binary_matchable.hpp(152): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_matchable.hpp(146): note: while compiling class template member function 'std::bitset<256> srrg_hbst::BinaryMatchable<cv::KeyPoint,256>::getDescriptor(const cv::Mat &)'
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_matchable.hpp(88): note: see reference to function template instantiation 'std::bitset<256> srrg_hbst::BinaryMatchable<cv::KeyPoint,256>::getDescriptor(const cv::Mat &)' being compiled
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_node.hpp(22): note: see reference to class template instantiation 'srrg_hbst::BinaryMatchable<cv::KeyPoint,256>' being compiled
+c:\users\owner\desktop\comparison_approach\hbst\src\binary_matchable.hpp(152): warning C4244: 'initializing': conversion from 'uint64_t' to 'const uint32_t', possible loss of data
+c:\users\owner\desktop\comparison_approach\hbst\src\binary_matchable.hpp(155): warning C4244: 'argument': conversion from 'uint64_t' to 'int', possible loss of data
+c:\users\owner\desktop\comparison_approach\hbst\src\binary_matchable.hpp(104): warning C4267: 'return': conversion from 'size_t' to 'const uint32_t', possible loss of data
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_matchable.hpp(103): note: while compiling class template member function 'const uint32_t srrg_hbst::BinaryMatchable<cv::KeyPoint,256>::distance(const srrg_hbst::BinaryMatchable<cv::KeyPoint,256> *) const'
+  c:\users\owner\desktop\comparison_approach\hbst\src\binary_tree.hpp(1358): note: see reference to function template instantiation 'const uint32_t srrg_hbst::BinaryMatchable<cv::KeyPoint,256>::distance(const srrg_hbst::BinaryMatchable<cv::KeyPoint,256> *) const' being compiled
+  Generating code
+  0 of 1638 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DBoW.vcxproj -> C:\Users\owner\Desktop\Comparison_Approach\HBST\x64\Release\HBST.exe

@@ -1,0 +1,11 @@
+%YAML:1.0
+---
+vocabulary:
+   k: 9
+   L: 3
+   scoringType: 0
+   weightingType: 0
+   nodes:
+      []
+   words:
+      []

@@ -1,0 +1,11 @@
+﻿  DBoW.cpp
+d:\library\dbow3\src\vocabulary.h(302): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\vocabulary.h(303): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\vocabulary.h(438): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\descmanip.h(95): warning C4244: 'return': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  Generating code
+  2 of 381 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DBoW.vcxproj -> C:\Users\IceHan\Desktop\LoopClosureCpp\DBoW\x64\Release\DBoW.exe

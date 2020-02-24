@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <name>srrg_hbst</name>
+  <version>1.0.0</version>
+  <description>HBST: Hamming Binary Search Tree Header-only library</description>
+  <maintainer email="schlegel@diag.uniroma1.it">Dominik Schlegel</maintainer>
+  <license>BSD</license>
+  <author email="schlegel@diag.uniroma1.it">Dominik Schlegel</author>
+  <author email="grisetti@diag.uniroma1.it">Giorgio Grisetti</author>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
+

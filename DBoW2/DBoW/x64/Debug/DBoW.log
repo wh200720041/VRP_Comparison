@@ -1,0 +1,69 @@
+﻿  DBoW.cpp
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(1001): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(1000): note: while compiling class template member function 'unsigned int DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::size(void) const'
+  c:\users\owner\desktop\comparison_approach\dbow2\dbow\dbow.cpp(73): note: see reference to class template instantiation 'DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>' being compiled
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(1165): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(1128): note: while compiling class template member function 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::transform(const std::vector<cv::Mat,std::allocator<_Ty>> &,DBoW2::BowVector &,DBoW2::FeatureVector &,int) const'
+          with
+          [
+              _Ty=cv::Mat
+          ]
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(1165): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'const double', possible loss of data
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(1097): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(1066): note: while compiling class template member function 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::transform(const std::vector<cv::Mat,std::allocator<_Ty>> &,DBoW2::BowVector &) const'
+          with
+          [
+              _Ty=cv::Mat
+          ]
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(1097): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'const double', possible loss of data
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(1439): warning C4244: 'initializing': conversion from '__int64' to 'DBoW2::WordId', possible loss of data
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(1360): note: while compiling class template member function 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::save(cv::FileStorage &,const std::string &) const'
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(747): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=std::_Vbase
+          ]
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(642): note: while compiling class template member function 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::HKmeansStep(DBoW2::NodeId,const std::vector<DBoW2::FORB::pDescriptor,std::allocator<_Ty>> &,int)'
+          with
+          [
+              _Ty=DBoW2::FORB::pDescriptor
+          ]
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(577): note: see reference to function template instantiation 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::HKmeansStep(DBoW2::NodeId,const std::vector<DBoW2::FORB::pDescriptor,std::allocator<_Ty>> &,int)' being compiled
+          with
+          [
+              _Ty=DBoW2::FORB::pDescriptor
+          ]
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(453): note: while compiling class template member function 'DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::TemplatedVocabulary(const char *)'
+  c:\users\owner\desktop\comparison_approach\dbow2\dbow\dbow.cpp(73): note: see reference to function template instantiation 'DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::TemplatedVocabulary(const char *)' being compiled
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(786): warning C4267: 'initializing': conversion from 'size_t' to 'DBoW2::NodeId', possible loss of data
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(853): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(835): note: while compiling class template member function 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::initiateClustersKMpp(const std::vector<DBoW2::FORB::pDescriptor,std::allocator<_Ty>> &,std::vector<cv::Mat,std::allocator<cv::Mat>> &) const'
+          with
+          [
+              _Ty=DBoW2::FORB::pDescriptor
+          ]
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(826): note: see reference to function template instantiation 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::initiateClustersKMpp(const std::vector<DBoW2::FORB::pDescriptor,std::allocator<_Ty>> &,std::vector<cv::Mat,std::allocator<cv::Mat>> &) const' being compiled
+          with
+          [
+              _Ty=DBoW2::FORB::pDescriptor
+          ]
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(899): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(901): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(931): warning C4267: '=': conversion from 'size_t' to 'DBoW2::WordId', possible loss of data
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(917): note: while compiling class template member function 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::createWords(void)'
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(580): note: see reference to function template instantiation 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::createWords(void)' being compiled
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(944): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(943): note: while compiling class template member function 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::setNodeWeights(const std::vector<std::vector<cv::Mat,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &)'
+          with
+          [
+              _Ty=cv::Mat
+          ]
+  d:\library\dbow2\include\dbow2\templatedvocabulary.h(583): note: see reference to function template instantiation 'void DBoW2::TemplatedVocabulary<DBoW2::FORB::TDescriptor,DBoW2::FORB>::setNodeWeights(const std::vector<std::vector<cv::Mat,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &)' being compiled
+          with
+          [
+              _Ty=cv::Mat
+          ]
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(944): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(945): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\library\dbow2\include\dbow2\templatedvocabulary.h(945): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+  DBoW.vcxproj -> C:\Users\owner\Desktop\Comparison_Approach\DBoW2\x64\Debug\DBoW.exe

@@ -1,0 +1,26 @@
+﻿D:\Visual Studio 2017\Visual Studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (DBoW.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  lcdetector.cc
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_tree_node.h(91): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_tree_node.h(107): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\priority_queues.h(67): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\priority_queues.h(117): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_tree.h(64): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_index.h(116): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  main.cc
+d:\library\dbow3\src\vocabulary.h(302): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\vocabulary.h(303): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\vocabulary.h(438): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+d:\library\dbow3\src\descmanip.h(95): warning C4244: 'return': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_tree_node.h(91): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_tree_node.h(107): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\priority_queues.h(67): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\priority_queues.h(117): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_tree.h(64): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\binary_index.h(116): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\owner\desktop\comparison_approach\ibow\ibow\src\main.cc(51): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  2 of 4133 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DBoW.vcxproj -> C:\Users\owner\Desktop\Comparison_Approach\iBoW\x64\Release\IBoW.exe
